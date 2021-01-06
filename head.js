@@ -1,3 +1,3 @@
-const head = function(array) {
-  return array[0];
+const head = function(arrList) {
+  return arrList[0];
 };

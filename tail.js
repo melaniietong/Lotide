@@ -1,7 +1,7 @@
-const tail = function(array) {
+const tail = function(arrList) {
   let newArr = [];
-  for (let i = 1; i < array.length; i++) {
-    newArr.push(array[i]);
+  for (let i = 1; i < arrList.length; i++) {
+    newArr.push(arrList[i]);
   }
   return newArr;
 };

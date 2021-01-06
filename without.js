@@ -1,7 +1,7 @@
-const without = function(arrayList, ignoreWord) {
+const without = function(arrList, ignoreWord) {
   let output = [];
 
-  for (let arr of arrayList) {
+  for (let arr of arrList) {
     let dontIgnore = true;
     for (let igWo of ignoreWord) {
       if (arr === igWo) {
