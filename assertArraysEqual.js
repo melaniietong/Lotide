@@ -1,4 +1,4 @@
-const eqArrays = function(arrOne, arrTwo) {
+const assertArraysEqual = function(arrOne, arrTwo) {
   let output = true;
 
   // Is arrays arent' the same length, false.
