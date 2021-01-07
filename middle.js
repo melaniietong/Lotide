@@ -12,4 +12,4 @@ const middle = function(arrList) {
   } 
 
   return newArr
-}
+};
