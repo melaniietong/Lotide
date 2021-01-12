@@ -1,8 +1,8 @@
 const assert = require('chai').assert;
-const tail   = require('../tail');
+const _      = require('../index');
 
 describe("#tail", () => {
-  const output = tail(["Hello", "Lighthouse", "Labs"]);
+  const output = _.tail(["Hello", "Lighthouse", "Labs"]);
 
   it("returns length 2 for tail(output)", () => {
     assert.equal(output.length, 2);
