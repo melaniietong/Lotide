@@ -15,7 +15,7 @@ const eqArrays = function(arrOne, arrTwo) {
     }
   }
 
-  return output;
+  return assertEqual(output, true);
 }
 
 module.exports = eqArrays;
