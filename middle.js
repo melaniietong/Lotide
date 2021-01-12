@@ -13,3 +13,5 @@ const middle = function(arrList) {
 
   return newArr
 };
+
+module.exports = middle;
