@@ -5,3 +5,5 @@ const tail = function(arrList) {
   }
   return newArr;
 };
+
+module.exports = tail;
