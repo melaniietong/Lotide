@@ -1,6 +1,8 @@
-const words = ["ground", "control", "to", "major", "tom"];
-
 const map = (arrList, callback) => {
+  if (arrList === undefined) {
+    return undefined;
+  }
+  
   const results = [];
 
   for (let arr of arrList) {
@@ -10,5 +12,4 @@ const map = (arrList, callback) => {
   return results;
 };
 
-const results1 = map(words, word => word[0]);
-console.log(results1);
+module.exports = map;

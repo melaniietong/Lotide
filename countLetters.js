@@ -1,4 +1,8 @@
 const countLetters = function(str) {
+  if (str === undefined) {
+    return undefined;
+  }
+
   const results = {};
   const singularStr = str.replace(/\s/g, "");
 
@@ -12,3 +16,5 @@ const countLetters = function(str) {
 
   return results;
 };
+
+module.exports = countLetters;

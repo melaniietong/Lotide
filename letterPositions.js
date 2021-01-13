@@ -1,4 +1,8 @@
 const letterPositions = function(sentence) {
+  if (sentence === undefined) {
+    return undefined
+  }
+
   const results = {};
 
   for (let i = 0; i < sentence.length; i++){
@@ -13,3 +17,5 @@ const letterPositions = function(sentence) {
 
   return results;
 };
+
+module.exports = letterPositions;

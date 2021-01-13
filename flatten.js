@@ -14,3 +14,5 @@ const flatten = function(arrList) {
 
   return newArr;
 }
+
+module.exports = flatten;

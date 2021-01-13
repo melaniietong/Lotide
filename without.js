@@ -1,4 +1,8 @@
 const without = function(arrList, ignoreWord) {
+  if (arrList === undefined) {
+    return undefined;
+  }
+
   let output = [];
 
   for (let arr of arrList) {
@@ -16,3 +20,5 @@ const without = function(arrList, ignoreWord) {
 
   return output;
 };
+
+module.exports = without;
